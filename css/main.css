@@ -2028,6 +2028,7 @@ a {
   height: inherit;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .projectItemMedia:after {
@@ -2630,6 +2631,12 @@ textarea::-ms-input-placeholder {
     width: 375px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutUsTeamItemImg {
+    width: 300px;
   }
 }
 
