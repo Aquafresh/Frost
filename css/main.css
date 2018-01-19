@@ -1668,7 +1668,7 @@ a {
       -ms-filter: blur(3px);
           filter: blur(3px);
   background: url('../img/paralax5.jpg') no-repeat 50% 40%;
-  background-size: 130%;
+  background-size: cover;
   position: absolute;
   z-index: 1;
   top: 0;

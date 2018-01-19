@@ -13466,6 +13466,7 @@ return jQuery;
 			event.preventDefault();
 			var dataName = $(this).attr('data-menu');
 			var scrollElem = $('html, body')
+
 			if(dataName === 'service') {
 				scrollElem.stop().animate({
 				 	scrollTop: $('.service').offset().top
